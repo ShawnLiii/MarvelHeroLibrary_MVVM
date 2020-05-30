@@ -9,21 +9,35 @@
 /* Begin PBXBuildFile section */
 		3D3D289D248032150044A505 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3D289C248032150044A505 /* AppDelegate.swift */; };
 		3D3D289F248032150044A505 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3D289E248032150044A505 /* SceneDelegate.swift */; };
-		3D3D28A1248032150044A505 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3D28A0248032150044A505 /* ViewController.swift */; };
+		3D3D28A1248032150044A505 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3D28A0248032150044A505 /* WelcomeViewController.swift */; };
 		3D3D28A4248032150044A505 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D3D28A2248032150044A505 /* Main.storyboard */; };
 		3D3D28A6248032160044A505 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D3D28A5248032160044A505 /* Assets.xcassets */; };
 		3D3D28A9248032160044A505 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D3D28A7248032160044A505 /* LaunchScreen.storyboard */; };
+		3D3D28B82480341E0044A505 /* MarvelHero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3D28B72480341E0044A505 /* MarvelHero.swift */; };
+		3DC9F0482482E5B900060ACE /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC9F0472482E5B900060ACE /* ContainerViewController.swift */; };
+		3DC9F04A2482E5D300060ACE /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC9F0492482E5D300060ACE /* MenuViewController.swift */; };
+		3DC9F0502482F57900060ACE /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC9F04F2482F57900060ACE /* Protocols.swift */; };
+		3DC9F0522482FC1F00060ACE /* MenuOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC9F0512482FC1F00060ACE /* MenuOptions.swift */; };
+		3DC9F0542482FE2B00060ACE /* ManuOptionsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC9F0532482FE2B00060ACE /* ManuOptionsTableViewCell.swift */; };
+		3DC9F0562483088A00060ACE /* AppContains.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC9F0552483088A00060ACE /* AppContains.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3D3D2899248032150044A505 /* MarvelHeroLibrary_MVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarvelHeroLibrary_MVVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D3D289C248032150044A505 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3D3D289E248032150044A505 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3D3D28A0248032150044A505 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3D3D28A0248032150044A505 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		3D3D28A3248032150044A505 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3D3D28A5248032160044A505 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D3D28A8248032160044A505 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3D3D28AA248032160044A505 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D3D28B72480341E0044A505 /* MarvelHero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvelHero.swift; sourceTree = "<group>"; };
+		3DC9F0472482E5B900060ACE /* ContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
+		3DC9F0492482E5D300060ACE /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		3DC9F04F2482F57900060ACE /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
+		3DC9F0512482FC1F00060ACE /* MenuOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuOptions.swift; sourceTree = "<group>"; };
+		3DC9F0532482FE2B00060ACE /* ManuOptionsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManuOptionsTableViewCell.swift; sourceTree = "<group>"; };
+		3DC9F0552483088A00060ACE /* AppContains.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppContains.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +70,94 @@
 		3D3D289B248032150044A505 /* MarvelHeroLibrary_MVVM */ = {
 			isa = PBXGroup;
 			children = (
-				3D3D289C248032150044A505 /* AppDelegate.swift */,
-				3D3D289E248032150044A505 /* SceneDelegate.swift */,
-				3D3D28A0248032150044A505 /* ViewController.swift */,
-				3D3D28A2248032150044A505 /* Main.storyboard */,
-				3D3D28A5248032160044A505 /* Assets.xcassets */,
-				3D3D28A7248032160044A505 /* LaunchScreen.storyboard */,
-				3D3D28AA248032160044A505 /* Info.plist */,
+				3D3D28B5248033330044A505 /* Model */,
+				3D3D28B2248032B50044A505 /* View */,
+				3D3D28B4248033260044A505 /* ViewModel */,
+				3D3D28B02480329B0044A505 /* Common */,
+				3D3D28B1248032A60044A505 /* Controller */,
+				3D3D28B3248032DE0044A505 /* SupportFiles */,
 			);
 			path = MarvelHeroLibrary_MVVM;
+			sourceTree = "<group>";
+		};
+		3D3D28B02480329B0044A505 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				3DC9F04E2482F56100060ACE /* Utils */,
+				3D3D289C248032150044A505 /* AppDelegate.swift */,
+				3D3D289E248032150044A505 /* SceneDelegate.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		3D3D28B1248032A60044A505 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3DC9F04D2482F43300060ACE /* WelcomePage */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3D3D28B2248032B50044A505 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3D3D28B6248033CB0044A505 /* CustomizeCell */,
+				3D3D28A2248032150044A505 /* Main.storyboard */,
+				3D3D28A7248032160044A505 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3D3D28B3248032DE0044A505 /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				3D3D28A5248032160044A505 /* Assets.xcassets */,
+				3D3D28AA248032160044A505 /* Info.plist */,
+			);
+			path = SupportFiles;
+			sourceTree = "<group>";
+		};
+		3D3D28B4248033260044A505 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		3D3D28B5248033330044A505 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3D3D28B72480341E0044A505 /* MarvelHero.swift */,
+				3DC9F0512482FC1F00060ACE /* MenuOptions.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3D3D28B6248033CB0044A505 /* CustomizeCell */ = {
+			isa = PBXGroup;
+			children = (
+				3DC9F0532482FE2B00060ACE /* ManuOptionsTableViewCell.swift */,
+			);
+			path = CustomizeCell;
+			sourceTree = "<group>";
+		};
+		3DC9F04D2482F43300060ACE /* WelcomePage */ = {
+			isa = PBXGroup;
+			children = (
+				3D3D28A0248032150044A505 /* WelcomeViewController.swift */,
+				3DC9F0472482E5B900060ACE /* ContainerViewController.swift */,
+				3DC9F0492482E5D300060ACE /* MenuViewController.swift */,
+			);
+			path = WelcomePage;
+			sourceTree = "<group>";
+		};
+		3DC9F04E2482F56100060ACE /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				3DC9F04F2482F57900060ACE /* Protocols.swift */,
+				3DC9F0552483088A00060ACE /* AppContains.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +231,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D3D28A1248032150044A505 /* ViewController.swift in Sources */,
+				3D3D28B82480341E0044A505 /* MarvelHero.swift in Sources */,
+				3DC9F0542482FE2B00060ACE /* ManuOptionsTableViewCell.swift in Sources */,
+				3DC9F0522482FC1F00060ACE /* MenuOptions.swift in Sources */,
+				3DC9F04A2482E5D300060ACE /* MenuViewController.swift in Sources */,
+				3D3D28A1248032150044A505 /* WelcomeViewController.swift in Sources */,
+				3DC9F0482482E5B900060ACE /* ContainerViewController.swift in Sources */,
 				3D3D289D248032150044A505 /* AppDelegate.swift in Sources */,
 				3D3D289F248032150044A505 /* SceneDelegate.swift in Sources */,
+				3DC9F0562483088A00060ACE /* AppContains.swift in Sources */,
+				3DC9F0502482F57900060ACE /* Protocols.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,7 +386,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2NAJ323R5S;
-				INFOPLIST_FILE = MarvelHeroLibrary_MVVM/Info.plist;
+				INFOPLIST_FILE = MarvelHeroLibrary_MVVM/SupportFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,7 +404,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2NAJ323R5S;
-				INFOPLIST_FILE = MarvelHeroLibrary_MVVM/Info.plist;
+				INFOPLIST_FILE = MarvelHeroLibrary_MVVM/SupportFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
